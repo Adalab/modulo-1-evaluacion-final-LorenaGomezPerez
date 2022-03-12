@@ -1,12 +1,14 @@
-.title-3 {
+.title-1 {
   font-size: 1.5rem;
 }
 
 .paragraphs-2 {
   font-size: 0.875rem;
+  padding: 10px;
 }
 
 .sent {
+  padding: 46px 51px;
   background-color: $orange;
   text-align: center;
   color: #ffffff;
@@ -14,6 +16,7 @@
 }
 
 .enjoy {
+  padding: 87px 27px 92px;
   background-color: #f0ebe5;
   color: #0c474b;
   text-align: center;
@@ -25,10 +28,10 @@
   height: 304px;
 }
 
-.button {
+.buy {
   width: 176px;
   height: 48px;
-  background-color: $blue-turquoise;
+  padding: 20px;
   color: $white;
   text-decoration: none;
 }

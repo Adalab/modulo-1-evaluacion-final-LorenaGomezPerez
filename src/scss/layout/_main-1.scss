@@ -1,30 +1,29 @@
+.title {
+  font-size: 1.5rem;
+}
+
 .title-2 {
   font-size: 1.25rem;
+  padding-top: 20px;
 }
 
 .paragraphs-1 {
   font-size: 1rem;
+  padding: 10px 50px 0 50px;
+}
+
+.article {
+  padding: 25px 25px;
 }
 
 .shopping {
+  padding: 41px 47px 18px 45px;
   background-color: $beige;
   text-align: center;
 }
 
-.plants {
-  width: 90px;
-  height: 99px;
-  color: $green-grey;
-}
+.icon {
+  height: 80px;
 
-.paperbag {
-  width: 90px;
-  height: 90px;
-  color: $green-grey;
-}
-
-.guide {
-  width: 90px;
-  height: 73.5px;
   color: $green-grey;
 }
