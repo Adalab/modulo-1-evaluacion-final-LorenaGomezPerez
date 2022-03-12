@@ -1,0 +1,49 @@
+.header {
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburguer {
+  margin: 60px 10px 10px 40px;
+  position: fixed;
+  z-index: 1;
+  width: 24px;
+}
+
+.logo {
+  width: 213px;
+  height: 96px;
+  margin-top: 19px;
+}
+
+.title {
+  width: 414px;
+  margin: 100px 0 24px;
+  font-size: 1.5rem;
+  color: $blue-turquoise;
+  text-align: center;
+}
+
+.button {
+  width: 176px;
+  height: 48px;
+  background-color: $blue-turquoise;
+  color: $white;
+  font-size: 1rem;
+  margin: 12px 24px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(139px);
+}
