@@ -57,7 +57,19 @@
     padding-top: 0;
   }
 
-  .list {
-    transform: translate(-90px, 30px);
+  .arrow {
+    padding: 10px 15px 20px 15px;
+    margin: -20px -30px;
   }
 }
+
+@media all and (min-width: 1728px) {
+  .container {
+    justify-content: space-evenly;
+  }
+
+  .arrow {
+    margin: -109px 5px;
+  }
+}
+/*animación botón de footer*/

@@ -11,6 +11,10 @@
   align-items: center;
 }
 
+.dropdown {
+  display: none;
+}
+
 .hamburguer {
   margin: 60px 10px 10px 40px;
   position: fixed;
@@ -33,9 +37,16 @@
 
 .button {
   background-color: $blue-turquoise;
+  transition: background-color ease 1s;
   color: $white;
   font-size: 1rem;
   padding: 10px 50px 10px 50px;
+
+  .button {
+    background-color: rgb(45, 21, 53);
+  }
+
+  /*mirar esta transición*/
 }
 
 .section {
@@ -50,6 +61,7 @@
     height: 822px;
     background-position-x: -492px;
   }
+
   .section {
     align-items: flex-start;
     margin: 117px 150px 28px 37px;
@@ -67,10 +79,19 @@
 }
 
 @media all and (min-width: 1728px) {
+  .header {
+    height: 100vh;
+  }
   .dropdown {
     font-size: 1rem;
     color: $green-grey;
     display: flex;
     list-style: none;
   }
+
+  .hamburguer {
+    display: none;
+  }
 }
+
+/*revisar menú desplegable*/
