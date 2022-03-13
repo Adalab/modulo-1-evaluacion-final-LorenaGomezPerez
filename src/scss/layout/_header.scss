@@ -44,3 +44,23 @@
   align-items: center;
   transform: translateY(139px);
 }
+
+@media all and (min-width: 900px) {
+  .header {
+    background-position-y: 50px;
+    background-position-x: -428px;
+  }
+  .section {
+    align-items: flex-start;
+    margin: 117px 150px 28px 37px;
+  }
+  .spaces {
+    font-size: 2.25rem;
+    margin: 5px 153px 24px 18px;
+    padding: 10px 150px 20px 50px;
+  }
+
+  .button {
+    margin: 16px 78px 20px 50px;
+  }
+}

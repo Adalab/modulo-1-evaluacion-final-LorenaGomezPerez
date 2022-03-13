@@ -27,3 +27,20 @@
   margin: 15px 0 15px 0;
   color: $green-grey;
 }
+
+@media all and (min-width: 900px) {
+  .p {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .paragraphs-1 {
+    padding: 0;
+  }
+
+  .bathroom {
+    height: 474px;
+    background-position-x: -3px;
+    background-position-y: -115px;
+  }
+}
