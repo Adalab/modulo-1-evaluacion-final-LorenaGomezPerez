@@ -40,3 +40,23 @@
   padding: 10px 30px 10px 30px;
   text-decoration: none;
 }
+
+@media all and (min-width: 1728px) {
+  .web {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .sent {
+    padding: 61px 437px 78px 492px;
+  }
+
+  .enjoy {
+    padding: 176px 144px 171px 280px;
+  }
+
+  .bathroom {
+    height: 578px;
+    /*revisar esto*/
+  }
+}
