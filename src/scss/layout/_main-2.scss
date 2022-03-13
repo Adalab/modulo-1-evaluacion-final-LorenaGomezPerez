@@ -4,7 +4,7 @@
 
 .paragraphs-2 {
   font-size: 0.875rem;
-  padding: 10px;
+  padding: 11px 16px 35px 16px;
 }
 
 .sent {
@@ -29,9 +29,14 @@
 }
 
 .buy {
-  width: 176px;
-  height: 48px;
   padding: 20px;
   color: $white;
+}
+
+.button-1 {
+  background-color: $blue-turquoise;
+  color: $white;
+  font-size: 1rem;
+  padding: 10px 30px 10px 30px;
   text-decoration: none;
 }
