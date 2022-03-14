@@ -1,3 +1,11 @@
+.sent {
+  padding: 46px 51px;
+  background-color: $orange;
+  text-align: center;
+  color: #ffffff;
+  gap: 20px;
+}
+
 .title-1 {
   font-size: 1.5rem;
 }
@@ -7,12 +15,10 @@
   padding: 11px 16px 35px 16px;
 }
 
-.sent {
-  padding: 46px 51px;
-  background-color: $orange;
-  text-align: center;
-  color: #ffffff;
-  gap: 20px;
+.buy {
+  padding: 20px;
+  color: $white;
+  text-transform: initial;
 }
 
 .enjoy {
@@ -21,21 +27,12 @@
   color: #0c474b;
   text-align: center;
 }
-.bathroom {
-  background-image: url(../images/bathroom.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-.buy {
-  padding: 20px;
-  color: $white;
-}
 
 .button-1 {
   background-color: $blue-turquoise;
   color: $white;
   font-size: 1rem;
+  text-transform: initial;
   padding: 10px 30px 10px 30px;
   text-decoration: none;
   transition: background-color 1s;
@@ -45,33 +42,42 @@
   background-color: rgb(243, 180, 155);
   cursor: pointer;
 }
+.bathroom {
+  background-image: url(../images/bathroom.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+@media all and (mind-widht: 900px) {
+  .bathroom {
+    height: 474px;
+    background-position-x: -3px;
+    background-position-y: -115px;
+  }
+}
 
 @media all and (min-width: 1728px) {
+  .sent {
+    padding: 61px 437px 78px 492px;
+  }
   .web {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
-  .sent {
-    padding: 61px 437px 78px 492px;
-  }
-
-  .enjoy {
-    padding: 150px 207px 153px 150px;
-  }
-
-  .title {
+  .title-desktop {
+    padding: 56px;
+    margin: -19px 18px -42px 177px;
     text-align: start;
-    padding: 16px 36px 17px 43px;
-    width: 399px;
   }
-  .paragraphs-2 {
-    padding-bottom: 30px 40px 20px 40px;
-    font-size: 1rem;
 
-    height: 96px;
-    padding: 25px 59px -12px -16px;
+  .paragraphs-desktop {
+    padding: 50px 37px 31px 177px;
+    padding: -6px 45px 19px 78px;
+    text-align: start;
+  }
 
-    padding-top: 6px;
+  .button-1 {
+    margin-left: 40px;
   }
 }

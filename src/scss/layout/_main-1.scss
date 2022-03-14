@@ -1,9 +1,25 @@
+.shopping {
+  padding: 41px 47px 18px 45px;
+  background-color: $beige;
+  text-align: center;
+}
+
 .title {
   font-size: 1.5rem;
 }
 
 .open {
   text-transform: uppercase;
+}
+
+.article {
+  padding: 25px 25px;
+}
+
+.icon {
+  height: 80px;
+  margin: 15px 0 15px 0;
+  color: $green-grey;
 }
 
 .title-2 {
@@ -16,22 +32,6 @@
   padding: 10px 50px 0 50px;
 }
 
-.article {
-  padding: 25px 25px;
-}
-
-.shopping {
-  padding: 41px 47px 18px 45px;
-  background-color: $beige;
-  text-align: center;
-}
-
-.icon {
-  height: 80px;
-  margin: 15px 0 15px 0;
-  color: $green-grey;
-}
-
 @media all and (min-width: 900px) {
   .p {
     display: grid;
@@ -40,12 +40,6 @@
 
   .paragraphs-1 {
     padding: 0;
-  }
-
-  .bathroom {
-    height: 474px;
-    background-position-x: -3px;
-    background-position-y: -115px;
   }
 }
 
@@ -66,4 +60,24 @@
   .paragraphs-1 {
     padding: 2px 6px 6px 1px;
   }
+
+  .enjoy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .title-desktop {
+    width: 300px;
+    text-align: start;
+    transform: translate(297px, 10px);
+  }
+
+  .paragraphs-desktop {
+    text-align: start;
+    margin-left: 274px;
+  }
+}
+.button-1 {
+  margin-right: 35px;
 }
