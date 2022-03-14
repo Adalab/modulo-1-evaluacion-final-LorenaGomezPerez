@@ -37,16 +37,15 @@
 
 .button {
   background-color: $blue-turquoise;
-  transition: background-color ease 1s;
   color: $white;
   font-size: 1rem;
   padding: 10px 50px 10px 50px;
+  transition: background-color 1s;
+}
 
-  .button {
-    background-color: rgb(45, 21, 53);
-  }
-
-  /*mirar esta transición*/
+.button:hover {
+  background-color: rgb(243, 180, 155);
+  cursor: pointer;
 }
 
 .section {
@@ -84,13 +83,26 @@
   }
   .dropdown {
     font-size: 1rem;
-    color: $green-grey;
+    color: $blue-turquoise;
     display: flex;
     list-style: none;
+    gap: 20px;
+    position: fixed;
+    z-index: 1;
+    margin: 44px 15px 40px 90px;
   }
 
   .hamburguer {
     display: none;
+  }
+  .section {
+    width: 430px;
+    padding: 20px 10px 20px 16px;
+    margin: 345px 50px 40px 67px;
+    text-align: left;
+  }
+  .button {
+    margin: 15px 16px 15px 16px;
   }
 }
 
