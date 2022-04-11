@@ -3,6 +3,7 @@
   background-size: cover;
   background-position: center;
   height: 100vh;
+  
 }
 
 .dropdown {
@@ -14,108 +15,143 @@
   position: fixed;
   z-index: 1;
   width: 24px;
+}
 
-  .menu {
+.menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 213px;
+  height: 96px;
+  
+}
+
+.spaces {
+  margin: 100px 0 76px;
+  font-size: 1.5rem;
+  color: $blue-turquoise;
+  text-align: center;
+}
+
+.button {
+  background-color: $blue-turquoise;
+  color: $white;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 10px 50px 10px 50px;
+  transition: background-color 1s;
+}
+
+.button:hover {
+  background-color: rgb(243, 180, 155);
+  cursor: pointer;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(139px);
+}
+
+.newversion {
+  width: 100vw;
+  background-color: $blue-turquoise;
+  color: $white;
+}
+.link-newversion {
+  color: $white;
+}
+
+@media all and (min-width: 900px) {
+  .newversion {
+    background-color: $orange;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .parapraphs-newversion {
+    text-align: right;
+  }
+}
+
+@media all and (min-width: 900px) {
+
+  .menu{
     display: flex;
     justify-content: center;
-    align-items: center;
   }
-
-  .logo {
-    width: 213px;
-    height: 96px;
-    margin-top: 19px;
-  }
-
-  .spaces {
-    margin: 100px 0 76px;
-    font-size: 1.5rem;
-    color: $blue-turquoise;
-    text-align: center;
-  }
-
-  .button {
-    background-color: $blue-turquoise;
-    color: $white;
-    font-size: 1rem;
-    text-decoration: none;
-    padding: 10px 50px 10px 50px;
-    transition: background-color 1s;
-  }
-
-  .button:hover {
-    background-color: rgb(243, 180, 155);
-    cursor: pointer;
+  .header {
+    height: 822px;
   }
 
   .section {
+    width: 430px;
+    align-items: flex-start;
+    position: absolute;
+    transform: translate(69px, 150px);
+  }
+  .spaces {
+    width: 430px;
+    text-align: start;
+    font-size: 2.25rem;
+    
+  }
+
+  .button {
+    transform: translate(58px, 115px);
+    position: absolute;
+    text-decoration: none;
+    transform: translate(-1px, -54px);
+  }
+
+  .paragraphs-2 {
+    width: 400px;
+    margin: 25px 54px 10px 225px;
+    text-align: center;
+  }
+}
+
+@media all and (min-width: 1728px) {
+  .header {
+    height: 100vh;
+  }
+  .dropdown {
+    font-size: 1rem;
+    color: $blue-turquoise;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    transform: translateY(139px);
+    list-style: none;
+    gap: 20px;
+    position: fixed;
+    z-index: 1;
+    margin: 44px 15px 40px 138px;
   }
 
-  @media all and (min-width: 900px) {
-    .header {
-      height: 822px;
-    }
-
-    .section {
-      align-items: flex-start;
-      margin: 138px 150px 25px 15px;
-      transform: translate(233px, 123px);
-    }
-    .spaces {
-      font-size: 2.25rem;
-      margin: 5px 182px 24px 5px;
-      padding: 10px 150px 5px 50px;
-    }
-
-    .button {
-      margin: 16px 78px 20px 100px;
-      text-decoration: none;
-    }
-
-    .paragraphs-2 {
-      width: 400px;
-      margin: 25px 54px 10px 225px;
-      text-align: center;
-    }
+  .hamburguer {
+    display: none;
+  }
+  .section {
+    width: 430px;
+    padding: 20px 10px 20px 16px;
+    margin: 345px 50px 40px 67px;
+    text-align: left;
   }
 
-  @media all and (min-width: 1728px) {
-    .header {
-      height: 100vh;
-    }
-    .dropdown {
-      font-size: 1rem;
-      color: $blue-turquoise;
-      display: flex;
-      list-style: none;
-      gap: 20px;
-      position: fixed;
-      z-index: 1;
-      margin: 44px 15px 40px 138px;
-    }
-
-    .hamburguer {
-      display: none;
-    }
-    .section {
-      width: 430px;
-      padding: 20px 10px 20px 16px;
-      margin: 345px 50px 40px 67px;
-      text-align: left;
-    }
-
-    .spaces {
-      width: 430px;
-      padding: 10px;
-      margin: 125px 132px 39px 13px;
-      text-align: start;
-    }
-    .button {
-      margin: 15px 16px 15px 16px;
-    }
+  .spaces {
+    width: 430px;
+    padding: 10px;
+    text-align: start;
+    transform: translate(12px, -359px);
+    position: absolute;
+  }
+  .button {
+    transform: translate(23px, -127px);
+    position: absolute;
   }
 }
